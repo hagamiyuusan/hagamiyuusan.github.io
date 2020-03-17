@@ -1,6 +1,6 @@
 
 
 TARGET_CLASSES = {
-  0: "Bình Thường",
-  1: "Dương tính",
+  0: "Dương tính",
+  1: "Bình thường",
 };
