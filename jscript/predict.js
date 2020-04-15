@@ -32,8 +32,8 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('https://hagamiyuusan.github.io/blob/master/model_v2/model.json');
-	$("#selected-image").attr("src", "https://hagamiyuusan.github.io/blob/master/assets/auntminnie-2020_01_31_20_24_2322_2020_01_31_x-ray_coronavirus_US.jpg")
+	model = await tf.loadModel('https://hagamiyuusan.github.io/model_v2/model.json');
+	$("#selected-image").attr("src", "https://hagamiyuusan.github.io/assets/auntminnie-2020_01_31_20_24_2322_2020_01_31_x-ray_coronavirus_US.jpg")
 	
 	$('.progress-bar').hide();
 
